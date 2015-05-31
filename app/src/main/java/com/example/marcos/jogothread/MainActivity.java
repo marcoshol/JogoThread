@@ -42,7 +42,7 @@ public class MainActivity extends ActionBarActivity {
         for(int i = 0;i < 9; i++){
             bt[i].setBackgroundColor(Color.WHITE);
         }
-        bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+        bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
         contador = new ContaTempo();
         contador.start();
 
@@ -52,12 +52,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt1(View v){
-        if(btAtivo == 0){
+        if(btAtivo == 0 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -67,12 +68,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt2(View v){
-        if(btAtivo == 1){
+        if(btAtivo == 1 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -82,12 +84,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt3(View v){
-        if(btAtivo == 2){
+        if(btAtivo == 2 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -97,12 +100,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt4(View v){
-        if(btAtivo == 3){
+        if(btAtivo == 3 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -112,12 +116,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt5(View v){
-        if(btAtivo == 4){
+        if(btAtivo == 4 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -127,12 +132,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt6(View v){
-        if(btAtivo == 5){
+        if(btAtivo == 5 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -142,12 +148,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt7(View v){
-        if(btAtivo == 6){
+        if(btAtivo == 6 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -157,12 +164,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt8(View v){
-        if(btAtivo == 7){
+        if(btAtivo == 7 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
@@ -172,12 +180,13 @@ public class MainActivity extends ActionBarActivity {
     }
 
     public void bt9(View v){
-        if(btAtivo == 8){
+        if(btAtivo == 8 && contador.getTempo() < 1500){
             btAtivo = gerador.nextInt(10);
             for(int i = 0;i < 9; i++){
                 bt[i].setBackgroundColor(Color.WHITE);
             }
-            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,10));
+            bt[btAtivo].setBackgroundColor(Color.rgb(0,199,60));
+            contador.setTempo(0);
 
         } else{
             Intent i = new Intent(this, Perdeu.class);
